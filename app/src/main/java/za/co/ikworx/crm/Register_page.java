@@ -39,7 +39,7 @@ public class Register_page extends AppCompatActivity {
     private EditText etName, etSurname, etEmails, etPassword, etAddress, etCity, etPostalCode, etCountry;
 
     RequestQueue requestQueue;
-    String insertUrl = "http://192.168.176.33/androidDB/insertRegisterPage.php";
+    String insertUrl = "http://crm3.gearhostpreview.com/android/insertRegisterPage.php";
     String showUrl = "http://192.168.176.33/androidDB/insertRegisterPage.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -24,7 +24,7 @@ public class Add_product extends AppCompatActivity {
     private EditText etProdName, etProdDuration, etProdPrice;
 
     RequestQueue requestQueue;
-    String insertUrl = "http://192.168.176.33/androidDB/Add_prod.php";
+    String insertUrl = "http://crm3.gearhostpreview.com/Add_prod.php";
     String showUrl = "http://192.168.176.33/androidDB/Add_prod.php";
 
     @Override

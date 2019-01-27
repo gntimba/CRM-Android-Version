@@ -6,7 +6,7 @@ public class Utility {
         return IP;
     }
 
-    public static String IP="http://192.168.176.33/androidDB/";
+    public static String IP="http://crm3.gearhostpreview.com/android/";
     private static String username1;
 
     private static int status;

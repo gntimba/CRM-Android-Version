@@ -37,7 +37,7 @@ public class Manual_registration extends AppCompatActivity {
     private EditText txtName, txtSurname, txtEmails, txtPhone, txtCompany, txtDesignation, txtAddress, txtCity, txtPostalCode, txtCountry, txtCustComment;
 
     RequestQueue requestQueue;
-    String insertUrl = "http://192.168.176.33/androidDB/manual_reg.php";
+    String insertUrl = "http://crm3.gearhostpreview.com/manual_reg.php";
     String showUrl = "http://192.168.176.33/androidDB/manual_reg.php";
 
     @Override
