@@ -26,6 +26,7 @@ import za.co.ikworx.crm.Utility.Utility;
 import za.co.ikworx.crm.models.Product;
 import za.co.ikworx.crm.models.productModel;
 
+import static za.co.ikworx.crm.Utility.Utility.IP;
 import static za.co.ikworx.crm.Utility.Utility.getIP;
 
 public class confirmPage extends AppCompatActivity implements
@@ -205,7 +206,7 @@ Product product = new Product();
 
             // arraylist = new ArrayList<HashMap<String, String>>();
             // Making a request to url and getting response
-            String url = getIP() + "email_send.php";
+            String url = IP + "email_send.php";
             Log.e(TAG, "Response from url: " + url);
             Log.e(TAG, "Response from url: " + productModel.getCustID());
             Log.e(TAG, "Response from url: " + Utility.getSalesID());
